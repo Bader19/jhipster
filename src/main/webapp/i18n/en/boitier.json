@@ -1,0 +1,28 @@
+{
+  "angularPfaApp": {
+    "boitier": {
+      "home": {
+        "title": "Boitiers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Boitier",
+        "createOrEditLabel": "Create or edit a Boitier",
+        "notFound": "No Boitiers found"
+      },
+      "created": "A new Boitier is created with identifier {{ param }}",
+      "updated": "A Boitier is updated with identifier {{ param }}",
+      "deleted": "A Boitier is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Boitier {{ id }}?"
+      },
+      "detail": {
+        "title": "Boitier"
+      },
+      "id": "ID",
+      "refrence": "Refrence",
+      "nbrBranche": "Nbr Branche",
+      "zone": "Zone",
+      "connecte": "Connecte",
+      "installation": "Installation"
+    }
+  }
+}

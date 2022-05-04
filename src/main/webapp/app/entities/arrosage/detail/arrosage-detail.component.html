@@ -1,0 +1,46 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    <div *ngIf="arrosage">
+      <h2 data-cy="arrosageDetailsHeading"><span jhiTranslate="angularPfaApp.arrosage.detail.title">Arrosage</span></h2>
+
+      <hr />
+
+      <jhi-alert-error></jhi-alert-error>
+
+      <jhi-alert></jhi-alert>
+
+      <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="global.field.id">ID</span></dt>
+        <dd>
+          <span>{{ arrosage.id }}</span>
+        </dd>
+        <dt><span jhiTranslate="angularPfaApp.arrosage.date">Date</span></dt>
+        <dd>
+          <span>{{ arrosage.date | formatMediumDate }}</span>
+        </dd>
+        <dt><span jhiTranslate="angularPfaApp.arrosage.duree">Duree</span></dt>
+        <dd>
+          <span>{{ arrosage.duree }}</span>
+        </dd>
+        <dt><span jhiTranslate="angularPfaApp.arrosage.quantiteEau">Quantite Eau</span></dt>
+        <dd>
+          <span>{{ arrosage.quantiteEau }}</span>
+        </dd>
+        <dt><span jhiTranslate="angularPfaApp.arrosage.zone">Zone</span></dt>
+        <dd>
+          <div *ngIf="arrosage.zone">
+            <a [routerLink]="['/zone', arrosage.zone?.id, 'view']">{{ arrosage.zone?.id }}</a>
+          </div>
+        </dd>
+      </dl>
+
+      <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+        <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+      </button>
+
+      <button type="button" [routerLink]="['/arrosage', arrosage.id, 'edit']" class="btn btn-primary">
+        <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+      </button>
+    </div>
+  </div>
+</div>

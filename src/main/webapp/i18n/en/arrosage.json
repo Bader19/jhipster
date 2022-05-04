@@ -1,0 +1,27 @@
+{
+  "angularPfaApp": {
+    "arrosage": {
+      "home": {
+        "title": "Arrosages",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Arrosage",
+        "createOrEditLabel": "Create or edit a Arrosage",
+        "notFound": "No Arrosages found"
+      },
+      "created": "A new Arrosage is created with identifier {{ param }}",
+      "updated": "A Arrosage is updated with identifier {{ param }}",
+      "deleted": "A Arrosage is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Arrosage {{ id }}?"
+      },
+      "detail": {
+        "title": "Arrosage"
+      },
+      "id": "ID",
+      "date": "Date",
+      "duree": "Duree",
+      "quantiteEau": "Quantite Eau",
+      "zone": "Zone"
+    }
+  }
+}

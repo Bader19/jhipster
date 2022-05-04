@@ -1,0 +1,24 @@
+{
+  "angularPfaApp": {
+    "typeSol": {
+      "home": {
+        "title": "Type Sols",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Type Sol",
+        "createOrEditLabel": "Create or edit a Type Sol",
+        "notFound": "No Type Sols found"
+      },
+      "created": "A new Type Sol is created with identifier {{ param }}",
+      "updated": "A Type Sol is updated with identifier {{ param }}",
+      "deleted": "A Type Sol is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Type Sol {{ id }}?"
+      },
+      "detail": {
+        "title": "Type Sol"
+      },
+      "id": "ID",
+      "libelle": "Libelle"
+    }
+  }
+}

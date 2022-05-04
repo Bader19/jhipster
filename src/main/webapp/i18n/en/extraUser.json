@@ -1,0 +1,25 @@
+{
+  "angularPfaApp": {
+    "extraUser": {
+      "home": {
+        "title": "Extra Users",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Extra User",
+        "createOrEditLabel": "Create or edit a Extra User",
+        "notFound": "No Extra Users found"
+      },
+      "created": "A new Extra User is created with identifier {{ param }}",
+      "updated": "A Extra User is updated with identifier {{ param }}",
+      "deleted": "A Extra User is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Extra User {{ id }}?"
+      },
+      "detail": {
+        "title": "Extra User"
+      },
+      "id": "ID",
+      "role": "Role",
+      "utilisateur": "Utilisateur"
+    }
+  }
+}

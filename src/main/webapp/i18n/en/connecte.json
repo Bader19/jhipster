@@ -1,0 +1,27 @@
+{
+  "angularPfaApp": {
+    "connecte": {
+      "home": {
+        "title": "Connectes",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Connecte",
+        "createOrEditLabel": "Create or edit a Connecte",
+        "notFound": "No Connectes found"
+      },
+      "created": "A new Connecte is created with identifier {{ param }}",
+      "updated": "A Connecte is updated with identifier {{ param }}",
+      "deleted": "A Connecte is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Connecte {{ id }}?"
+      },
+      "detail": {
+        "title": "Connecte"
+      },
+      "id": "ID",
+      "fonctionnel": "Fonctionnel",
+      "branche": "Branche",
+      "capteur": "Capteur",
+      "boitier": "Boitier"
+    }
+  }
+}

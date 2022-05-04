@@ -7,6 +7,20 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entities",
+        "espaceVert": "Espace Vert",
+        "zone": "Zone",
+        "typeSol": "Type Sol",
+        "plante": "Plante",
+        "utilisateur": "Utilisateur",
+        "capteur": "Capteur",
+        "boitier": "Boitier",
+        "grandeur": "Grandeur",
+        "typePlante": "Type Plante",
+        "plantation": "Plantation",
+        "arrosage": "Arrosage",
+        "connecte": "Connecte",
+        "installation": "Installation",
+        "extraUser": "Extra User",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

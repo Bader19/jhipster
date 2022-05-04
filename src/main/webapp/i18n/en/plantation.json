@@ -1,0 +1,27 @@
+{
+  "angularPfaApp": {
+    "plantation": {
+      "home": {
+        "title": "Plantations",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Plantation",
+        "createOrEditLabel": "Create or edit a Plantation",
+        "notFound": "No Plantations found"
+      },
+      "created": "A new Plantation is created with identifier {{ param }}",
+      "updated": "A Plantation is updated with identifier {{ param }}",
+      "deleted": "A Plantation is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Plantation {{ id }}?"
+      },
+      "detail": {
+        "title": "Plantation"
+      },
+      "id": "ID",
+      "date": "Date",
+      "nbrPlante": "Nbr Plante",
+      "plante": "Plante",
+      "zone": "Zone"
+    }
+  }
+}

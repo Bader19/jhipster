@@ -1,0 +1,27 @@
+{
+  "angularPfaApp": {
+    "espaceVert": {
+      "home": {
+        "title": "Espace Verts",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Espace Vert",
+        "createOrEditLabel": "Create or edit a Espace Vert",
+        "notFound": "No Espace Verts found"
+      },
+      "created": "A new Espace Vert is created with identifier {{ param }}",
+      "updated": "A Espace Vert is updated with identifier {{ param }}",
+      "deleted": "A Espace Vert is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Espace Vert {{ id }}?"
+      },
+      "detail": {
+        "title": "Espace Vert"
+      },
+      "id": "ID",
+      "libelle": "Libelle",
+      "photo": "Photo",
+      "zone": "Zone",
+      "utilisateur": "Utilisateur"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "angularPfaApp": {
+    "grandeur": {
+      "home": {
+        "title": "Grandeurs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Grandeur",
+        "createOrEditLabel": "Create or edit a Grandeur",
+        "notFound": "No Grandeurs found"
+      },
+      "created": "A new Grandeur is created with identifier {{ param }}",
+      "updated": "A Grandeur is updated with identifier {{ param }}",
+      "deleted": "A Grandeur is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Grandeur {{ id }}?"
+      },
+      "detail": {
+        "title": "Grandeur"
+      },
+      "id": "ID",
+      "type": "Type",
+      "valeur": "Valeur",
+      "date": "Date",
+      "zone": "Zone"
+    }
+  }
+}
